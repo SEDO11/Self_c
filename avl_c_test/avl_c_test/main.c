@@ -20,7 +20,7 @@ int height(struct Node* N) {
 
 // 노드 생성
 struct Node* newNode(int key) {
-    struct Node* node = (struct Node*) malloc(sizeof(struct Node));
+    struct Node* node = (struct Node*)malloc(sizeof(struct Node));
     node->key = key;
     node->left = NULL;
     node->right = NULL;
